@@ -1,7 +1,5 @@
 package com.hackerrank.learn;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class AppleAndOrange {
@@ -13,12 +11,12 @@ public class AppleAndOrange {
         int countApple = 0;
         int countOrange = 0;
         for (int apple : apples) {
-            if ((apple+a) >= s && (apple+a) <= t) {
+            if ((apple + a) >= s && (apple + a) <= t) {
                 countApple++;
             }
         }
         for (int orange : oranges) {
-            if ((orange+b) >= s && (orange+b) <= t) {
+            if ((orange + b) >= s && (orange + b) <= t) {
                 countOrange++;
             }
         }
